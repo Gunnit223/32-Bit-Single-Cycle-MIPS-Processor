@@ -1,9 +1,4 @@
-/*###################################################################################
-Note: Please don’t upload the assignments, template file/solution and lab. manual on GitHub or others public repository. 
-It violates the BITS’s Intellectual Property Rights (IPR).
-************************************************************************************/
-
-//perform airthemtic or logical operations based on value of "ALUControl"
+//Perform airthemtic or logical operations based on value of "ALUControl"
 module ALU(input [31:0] aluIn1, input [31:0] aluIn2,input [3:0]ALUContrl, output reg [31:0]aluOut, output reg zero);
 //WRITE YOUR CODE HERE
     always @(*) begin
